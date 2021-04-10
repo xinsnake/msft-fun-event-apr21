@@ -1,6 +1,12 @@
 <template>
   <div class="single-question-page">
-    SingleQuestionPage
+    <h4>Test question</h4>
+    <ol>
+      <li>Test Answer</li>
+      <li>Test Answer</li>
+      <li>Test Answer</li>
+      <li>Test Answer</li>
+    </ol>
   </div>
 </template>
 
