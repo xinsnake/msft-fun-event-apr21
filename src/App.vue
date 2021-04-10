@@ -1,26 +1,40 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <b-container>
+      <b-row>
+        <b-col>
+          <MediaPlayer />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <Scores />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <ContentDeck />
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Scores from './components/Scores.vue'
+import MediaPlayer from "@/components/MediaPlayer";
+import ContentDeck from "@/components/ContentDeck";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ContentDeck,
+    MediaPlayer,
+    Scores
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
