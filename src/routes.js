@@ -30,6 +30,6 @@ const routes = [
   { path: '/reset', component: ResetPage },
 ]
 
-export const Router = new VueRouter({
+export const router = new VueRouter({
   routes
 })
