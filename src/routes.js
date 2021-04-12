@@ -14,7 +14,7 @@ import ThankYouPage from "@/components/RouterPages/ThankYouPage";
 import ResetPage from "@/components/RouterPages/ResetPage";
 
 const routes = [
-  { path: '/title', component: TitlePage },
+  { path: '/', component: TitlePage },
   { path: '/intro', component: IntroPage },
   { path: '/section-1', component: Section1Page },
   { path: '/section-1-selection', component: Section1SelectionPage },
@@ -31,5 +31,5 @@ const routes = [
 ]
 
 export const router = new VueRouter({
-  routes
+  routes,
 })
