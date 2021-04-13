@@ -2,7 +2,9 @@ const state = () => ({
   teamAPoint: 1000,
   teamBPoint: 1000,
   currentTeam: 'A',
+  currentQuestion: null,
   currentSelection: 1,
+  usedQuestions: []
 })
 
 const getters = {}

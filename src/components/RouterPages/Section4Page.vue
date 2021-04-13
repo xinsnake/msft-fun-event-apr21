@@ -5,7 +5,9 @@
         <h3>Section 4 - English!</h3>
         <ul>
           <li>Two teams take turns to answer multiple choice questions.</li>
-          <li>Only <strong>1</strong> member in the team can participate each question, and you <strong>must rotate</strong> the member who is answering.</li>
+          <li>Only <strong>1</strong> member in the team can participate each question, and you <strong>must
+            rotate</strong> the member who is answering.
+          </li>
           <li>Then you answer the question:</li>
           <li>
             <ul>

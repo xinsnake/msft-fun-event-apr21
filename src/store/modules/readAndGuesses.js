@@ -1,4 +1,52 @@
 const state = () => ({
+  azure1: {
+    1: 'This is sentence 1',
+    2: 'This is sentence 2',
+    3: 'This is sentence 3',
+    4: 'This is sentence 4',
+    5: 'This is sentence 5',
+    6: 'This is sentence 6',
+  },
+  azure2: {
+    1: 'This is sentence 1',
+    2: 'This is sentence 2',
+    3: 'This is sentence 3',
+    4: 'This is sentence 4',
+    5: 'This is sentence 5',
+    6: 'This is sentence 6',
+  },
+  azure3: {
+    1: 'This is sentence 1',
+    2: 'This is sentence 2',
+    3: 'This is sentence 3',
+    4: 'This is sentence 4',
+    5: 'This is sentence 5',
+    6: 'This is sentence 6',
+  },
+  azure4: {
+    1: 'This is sentence 1',
+    2: 'This is sentence 2',
+    3: 'This is sentence 3',
+    4: 'This is sentence 4',
+    5: 'This is sentence 5',
+    6: 'This is sentence 6',
+  },
+  azure5: {
+    1: 'This is sentence 1',
+    2: 'This is sentence 2',
+    3: 'This is sentence 3',
+    4: 'This is sentence 4',
+    5: 'This is sentence 5',
+    6: 'This is sentence 6',
+  },
+  azure6: {
+    1: 'This is sentence 1',
+    2: 'This is sentence 2',
+    3: 'This is sentence 3',
+    4: 'This is sentence 4',
+    5: 'This is sentence 5',
+    6: 'This is sentence 6',
+  },
 })
 
 const getters = {}

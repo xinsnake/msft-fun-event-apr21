@@ -3,17 +3,17 @@
     <b-container>
       <b-row>
         <b-col>
-          <MediaPlayer />
+          <MediaPlayer/>
         </b-col>
       </b-row>
       <b-row>
         <b-col>
-          <Scores />
+          <Scores/>
         </b-col>
       </b-row>
       <b-row>
         <b-col>
-          <ContentDeck />
+          <ContentDeck/>
         </b-col>
       </b-row>
     </b-container>

@@ -2,10 +2,15 @@
   <b-container class="scores" v-if="!isTitlePage">
     <b-row class="mb-4">
       <b-col class="text-right">
-        <h2>Team A <b-badge :variant="getVariant('A')" @click="updatePoint($event, 'A')">{{teamAPoint}}</b-badge></h2>
+        <h2>Team A
+          <b-badge :variant="getVariant('A')" @click="updatePoint($event, 'A')">{{ teamAPoint }}</b-badge>
+        </h2>
       </b-col>
       <b-col class="text-left">
-        <h2><b-badge :variant="getVariant('B')" @click="updatePoint($event, 'B')">{{teamBPoint}}</b-badge> Team B</h2>
+        <h2>
+          <b-badge :variant="getVariant('B')" @click="updatePoint($event, 'B')">{{ teamBPoint }}</b-badge>
+          Team B
+        </h2>
       </b-col>
     </b-row>
   </b-container>

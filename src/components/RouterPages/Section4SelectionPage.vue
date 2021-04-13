@@ -9,13 +9,11 @@
       <b-col>
         <b-button block variant="primary" size="lg">Question 1</b-button>
         <b-button block variant="secondary" size="lg">Question 3</b-button>
-        <b-button block variant="outline-dark" size="lg">Question 5</b-button>
         <b-button block variant="warning" size="lg">Question 7</b-button>
       </b-col>
       <b-col>
         <b-button block variant="success" size="lg">Question 2</b-button>
         <b-button block variant="danger" size="lg">Question 4</b-button>
-        <b-button block variant="dark" size="lg">Question 6</b-button>
         <b-button block variant="info" size="lg">Question 8</b-button>
       </b-col>
     </b-row>

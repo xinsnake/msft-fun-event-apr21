@@ -16,22 +16,22 @@ import ThankYouPage from "@/components/RouterPages/ThankYouPage";
 import ResetPage from "@/components/RouterPages/ResetPage";
 
 const routes = [
-  { path: '/', component: TitlePage },
-  { path: '/intro', component: IntroPage },
-  { path: '/section-1', component: Section1Page },
-  { path: '/section-1-selection', component: Section1SelectionPage },
-  { path: '/section-2', component: Section2Page },
-  { path: '/section-2-selection', component: Section2SelectionPage },
-  { path: '/section-3', component: Section3Page },
-  { path: '/section-3-selection', component: Section3SelectionPage },
-  { path: '/section-4', component: Section4Page },
-  { path: '/section-4-selection', component: Section4SelectionPage },
-  { path: '/section-1/:qid', component: SingleQuestionPage },
-  { path: '/section-2/:qid', component: ReadAndGuessPage },
-  { path: '/section-3/:qid', component: SingleQuestionPage },
-  { path: '/section-4/:qid', component: SingleQuestionPage },
-  { path: '/thank-you', component: ThankYouPage },
-  { path: '/reset', component: ResetPage },
+  {path: '/', component: TitlePage},
+  {path: '/intro', component: IntroPage},
+  {path: '/section-1', component: Section1Page},
+  {path: '/section-1-selection', component: Section1SelectionPage},
+  {path: '/section-2', component: Section2Page},
+  {path: '/section-2-selection', component: Section2SelectionPage},
+  {path: '/section-3', component: Section3Page},
+  {path: '/section-3-selection', component: Section3SelectionPage},
+  {path: '/section-4', component: Section4Page},
+  {path: '/section-4-selection', component: Section4SelectionPage},
+  {path: '/section-1/:qid', component: SingleQuestionPage},
+  {path: '/section-2/:qid', component: ReadAndGuessPage},
+  {path: '/section-3/:qid', component: SingleQuestionPage},
+  {path: '/section-4/:qid', component: SingleQuestionPage},
+  {path: '/thank-you', component: ThankYouPage},
+  {path: '/reset', component: ResetPage},
 ]
 
 export const router = new VueRouter({
