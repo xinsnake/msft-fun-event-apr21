@@ -27,7 +27,7 @@
       </b-col>
       <b-col class="text-right">
         <b-button v-if="checkAnswerOn && !revealAnswerOn" variant="warning" @click="revealAnswer">Reveal</b-button>
-        <b-button v-if="!checkAnswerOn" variant="success" @click="checkAnswer">Check</b-button>
+        <b-button v-if="!checkAnswerOn && pendingSelection" variant="success" @click="checkAnswer">Check</b-button>
       </b-col>
     </b-row>
   </b-container>
@@ -53,8 +53,10 @@ export default {
   },
   methods: {
     pendingAnswer(sid) {
+      if (this.revealAnswerOn) {
+        return;
+      }
       this.$set(this, 'checkAnswerOn', false);
-      this.$set(this, 'revealAnswerOn', false);
       this.$set(this, 'pendingSelection', sid);
     },
     checkAnswer() {
