@@ -1,7 +1,11 @@
 <template>
-  <div class="media-player">
-    MediaPlayer
-  </div>
+  <b-container class="media-player">
+    <b-row>
+      <b-col>
+        MediaPlayer
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

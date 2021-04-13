@@ -1,6 +1,6 @@
 <template>
-  <b-container class="scores">
-    <b-row>
+  <b-container class="scores" v-if="!isTitlePage">
+    <b-row class="mb-4">
       <b-col class="text-right">
         <h2>Team A <b-badge :variant="getVariant('A')" @click="updatePoint($event, 'A')">{{teamAPoint}}</b-badge></h2>
       </b-col>
@@ -21,6 +21,9 @@ export default {
     teamBPoint() {
       return this.$store.state.game.teamBPoint
     },
+    isTitlePage() {
+      return this.$route.path === '/'
+    }
   },
   methods: {
     getVariant(teamName) {

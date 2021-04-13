@@ -2,6 +2,11 @@
   <b-container class="section-3-selection-page">
     <b-row>
       <b-col>
+        <h2>Questions:</h2>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col>
         <b-button block variant="primary" size="lg">History 100</b-button>
         <b-button block variant="primary" size="lg">History 200</b-button>
         <b-button block variant="primary" size="lg">History 300</b-button>
@@ -42,6 +47,14 @@
         <b-button block variant="secondary" size="lg">Business 100</b-button>
         <b-button block variant="secondary" size="lg">Business 200</b-button>
         <b-button block variant="secondary" size="lg">Business 300</b-button>
+      </b-col>
+    </b-row>
+    <b-row class="mt-4">
+      <b-col>
+        <router-link to="/section-3">Back To Section Intro</router-link>
+      </b-col>
+      <b-col class="text-right">
+        <router-link to="/section-4">Go to Section 4</router-link>
       </b-col>
     </b-row>
   </b-container>

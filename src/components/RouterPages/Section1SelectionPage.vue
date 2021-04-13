@@ -2,6 +2,11 @@
   <b-container class="section-1-selection-page">
     <b-row>
       <b-col>
+        <h2>Questions:</h2>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col>
         <b-button block variant="primary" size="lg">Software 100</b-button>
         <b-button block variant="primary" size="lg">Software 200</b-button>
         <b-button block variant="primary" size="lg">Software 300</b-button>
@@ -42,6 +47,14 @@
         <b-button block variant="secondary" size="lg">Theory 100</b-button>
         <b-button block variant="secondary" size="lg">Theory 200</b-button>
         <b-button block variant="secondary" size="lg">Theory 300</b-button>
+      </b-col>
+    </b-row>
+    <b-row class="mt-4">
+      <b-col>
+        <router-link to="/section-1">Back To Section Intro</router-link>
+      </b-col>
+      <b-col class="text-right">
+        <router-link to="/section-2">Go to Section 2</router-link>
       </b-col>
     </b-row>
   </b-container>

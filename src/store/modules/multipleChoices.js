@@ -3,13 +3,14 @@ const state = () => ({
     software100: {
       points: 100,
       question: 'This is a sample question',
-      answer: {
-        a: 'answer 1',
-        b: 'answer 2',
-        c: 'answer 3',
-        d: 'answer 4'
+      selections: {
+        1: 'answer 1',
+        2: 'answer 2',
+        3: 'answer 3',
+        4: 'answer 4'
       },
-      selected: false
+      answer: 2,
+      used: false
     },
     software200: {},
     software300: {},
