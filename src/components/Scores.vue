@@ -2,14 +2,15 @@
   <b-container class="scores" v-if="!isTitlePage">
     <b-row class="mb-4">
       <b-col class="text-right">
-        <h2>Team A
+        <h2>
+          <b-badge :variant="getTeamVariant('A')" @click="switchTeam('A')">Team A</b-badge> &nbsp;
           <b-badge :variant="getVariant('A')" @click="updatePoint($event, 'A')">{{ teamAPoint }}</b-badge>
         </h2>
       </b-col>
       <b-col class="text-left">
         <h2>
-          <b-badge :variant="getVariant('B')" @click="updatePoint($event, 'B')">{{ teamBPoint }}</b-badge>
-          Team B
+          <b-badge :variant="getVariant('B')" @click="updatePoint($event, 'B')">{{ teamBPoint }}</b-badge> &nbsp;
+          <b-badge :variant="getTeamVariant('B')" @click="switchTeam('B')">Team B</b-badge> &nbsp;
         </h2>
       </b-col>
     </b-row>
@@ -31,6 +32,9 @@ export default {
     }
   },
   methods: {
+    getTeamVariant(teamName) {
+      return this.$store.state.game.currentTeam === teamName ? 'warning' : 'light';
+    },
     getVariant(teamName) {
       if (this.teamAPoint === this.teamBPoint) {
         return 'primary';
@@ -56,6 +60,9 @@ export default {
       } else {
         this.$store.commit('game/subtractPoint', {teamName, amount: 50});
       }
+    },
+    switchTeam(teamName) {
+      this.$store.commit('game/changeTeam', teamName);
     }
   }
 }

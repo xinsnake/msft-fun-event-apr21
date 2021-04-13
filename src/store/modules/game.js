@@ -2,8 +2,6 @@ const state = () => ({
   teamAPoint: 1000,
   teamBPoint: 1000,
   currentTeam: 'A',
-  currentQuestion: null,
-  currentSelection: 1,
   usedQuestions: []
 })
 
@@ -17,6 +15,12 @@ const mutations = {
   },
   subtractPoint(state, payload) {
     state[`team${payload.teamName}Point`] -= payload.amount;
+  },
+  addUsedQuestion(state, qid) {
+    state.usedQuestions.push(qid);
+  },
+  changeTeam(state) {
+    state.currentTeam = state.currentTeam === 'A' ? 'B' : 'A';
   }
 }
 

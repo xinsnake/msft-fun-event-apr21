@@ -1,21 +1,86 @@
 <template>
-  <div class="single-question-page">
-    <h4>Test question</h4>
-    <ol>
-      <li>Test Answer</li>
-      <li>Test Answer</li>
-      <li>Test Answer</li>
-      <li>Test Answer</li>
-    </ol>
-  </div>
+  <b-container class="single-question-page">
+    <b-row>
+      <b-col>
+        <h4>{{q.question}}</h4>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col>
+        <ol type="A">
+          <li v-for="i in [1, 2, 3, 4]"
+              :key="i"
+              @click="pendingAnswer(i)"
+              :class="{
+                selected: pendingSelection === i,
+                right: i === q.answer && (checkAnswerOn && pendingSelection === i || revealAnswerOn),
+                wrong: i !== q.answer && checkAnswerOn && pendingSelection === i
+              }">
+            {{q.selections[i]}}
+          </li>
+        </ol>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col>
+        <a @click="router.go(-1)" href="#">Back</a>
+      </b-col>
+      <b-col class="text-right">
+        <b-button v-if="checkAnswerOn && !revealAnswerOn" variant="warning" @click="revealAnswer">Reveal</b-button>
+        <b-button v-if="!checkAnswerOn" variant="success" @click="checkAnswer">Check</b-button>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
 export default {
-  name: 'SingleQuestionPage'
+  name: 'SingleQuestionPage',
+  data: function () {
+    return {
+      q: null,
+      pendingSelection: 0,
+      checkAnswerOn: false,
+      revealAnswerOn: false,
+      router: this.$router,
+    };
+  },
+  mounted() {
+    const qid = this.$route.params.qid || '';
+    const q = this.$store.state.multipleChoices[qid];
+    this.$set(this, 'q', q);
+    this.$store.commit("game/addUsedQuestion", qid)
+  },
+  methods: {
+    pendingAnswer(sid) {
+      this.$set(this, 'checkAnswerOn', false);
+      this.$set(this, 'revealAnswerOn', false);
+      this.$set(this, 'pendingSelection', sid);
+    },
+    checkAnswer() {
+      this.$set(this, 'checkAnswerOn', true);
+      if (this.q.answer === this.pendingSelection) {
+        this.revealAnswer();
+      }
+    },
+    revealAnswer() {
+      this.$set(this, 'revealAnswerOn', true);
+    }
+  }
 }
 </script>
 
 <style scoped>
-
+ol > li {
+  cursor: pointer;
+}
+ol > li.selected {
+  color: blue;
+}
+ol > li.right {
+  color: green;
+}
+ol > li.wrong {
+  color: red;
+}
 </style>

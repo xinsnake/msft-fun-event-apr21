@@ -36,5 +36,7 @@ export default {
 </script>
 
 <style>
-
+.btn.disabled, .btn:disabled {
+  opacity: 0.25 !important;
+}
 </style>
