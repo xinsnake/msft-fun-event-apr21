@@ -1,11 +1,11 @@
 <template>
   <b-container class="section-1-selection-page">
-    <b-row>
+    <b-row class="mt-2 mb-2">
       <b-col>
         <h2>Questions:</h2>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="mt-2 mb-2">
       <b-col>
         <b-button block variant="primary" size="lg" :disabled="isQuestionUsed('software100')" @click="selectQuestion('software100')">Software 100</b-button>
         <b-button block variant="primary" size="lg" :disabled="isQuestionUsed('software200')" @click="selectQuestion('software200')">Software 200</b-button>
@@ -22,12 +22,12 @@
         <b-button block variant="warning" size="lg" :disabled="isQuestionUsed('database300')" @click="selectQuestion('database300')">Database 300</b-button>
       </b-col>
       <b-col>
-        <b-button block variant="outline-dark" size="lg" :disabled="isQuestionUsed('architecture100')" @click="selectQuestion('architecture100')">Architecture 100</b-button>
-        <b-button block variant="outline-dark" size="lg" :disabled="isQuestionUsed('architecture200')" @click="selectQuestion('architecture200')">Architecture 200</b-button>
-        <b-button block variant="outline-dark" size="lg" :disabled="isQuestionUsed('architecture300')" @click="selectQuestion('architecture300')">Architecture 300</b-button>
+        <b-button block variant="light" size="lg" :disabled="isQuestionUsed('architecture100')" @click="selectQuestion('architecture100')">Architecture 100</b-button>
+        <b-button block variant="light" size="lg" :disabled="isQuestionUsed('architecture200')" @click="selectQuestion('architecture200')">Architecture 200</b-button>
+        <b-button block variant="light" size="lg" :disabled="isQuestionUsed('architecture300')" @click="selectQuestion('architecture300')">Architecture 300</b-button>
       </b-col>
     </b-row>
-    <b-row class="mt-2">
+    <b-row class="mt-2 mb-2">
       <b-col>
         <b-button block variant="dark" size="lg" :disabled="isQuestionUsed('linux100')" @click="selectQuestion('linux100')">Linux 100</b-button>
         <b-button block variant="dark" size="lg" :disabled="isQuestionUsed('linux200')" @click="selectQuestion('linux200')">Linux 200</b-button>
@@ -49,7 +49,7 @@
         <b-button block variant="secondary" size="lg" :disabled="isQuestionUsed('theory300')" @click="selectQuestion('theory300')">Theory 300</b-button>
       </b-col>
     </b-row>
-    <b-row class="mt-4">
+    <b-row class="mt-4 pt-2 links-row">
       <b-col>
         <router-link to="/section-1">Back To Section Intro</router-link>
       </b-col>

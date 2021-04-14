@@ -5,7 +5,7 @@
         ResetPage
       </b-col>
     </b-row>
-    <b-row class="mt-4">
+    <b-row class="mt-4 pt-2 links-row">
       <b-col>
         <router-link to="/">Back To Home</router-link>
       </b-col>

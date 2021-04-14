@@ -15,5 +15,12 @@ export default {
 </script>
 
 <style scoped>
-
+.media-player {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 200px;
+  height: 120px;
+  border: 2px solid white;
+}
 </style>

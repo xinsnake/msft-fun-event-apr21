@@ -1,11 +1,11 @@
 <template>
   <b-container class="single-question-page">
-    <b-row>
+    <b-row class="text-center mt-4 mb-4">
       <b-col>
-        <h4>{{q.question}}</h4>
+        <h3>{{q.question}}</h3>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="text-center mb-5">
       <b-col>
         <ol type="A">
           <li v-for="i in [1, 2, 3, 4]"
@@ -21,7 +21,7 @@
         </ol>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="mt-4 pt-2 links-row">
       <b-col>
         <a @click="router.go(-1)" href="#">Back</a>
       </b-col>
@@ -73,16 +73,21 @@ export default {
 </script>
 
 <style scoped>
+ol {
+  display: inline-grid !important;
+  padding: 0;
+  font-size: 1.5rem;
+}
 ol > li {
   cursor: pointer;
 }
 ol > li.selected {
-  color: blue;
+  color: #ffc107;
 }
 ol > li.right {
-  color: green;
+  color: #28a745;
 }
 ol > li.wrong {
-  color: red;
+  color: #dc3545;
 }
 </style>

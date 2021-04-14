@@ -1,23 +1,25 @@
 <template>
   <b-container class="read-and-guess-page">
-    <b-row>
+    <b-row class="text-center mt-4 mb-4">
       <b-col>
-        <h4>Guess an Azure Service...</h4>
+        <h3>Guess this Azure Service...</h3>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="text-center mb-5">
       <b-col>
-        <ol type="1">
+        <ol type="i">
           <li v-for="i in [1, 2, 3, 4, 5, 6]"
               :key="i">
             <span v-if="currentStep >= i">{{q[i]}}</span>
           </li>
         </ol>
-        <b-button @click="nextStep" v-if="currentStep < 6">Next</b-button>
-        <h5 v-if="revealAnswerOn">{{q.answer}}</h5>
+        <div>
+          <b-button @click="nextStep" v-if="currentStep < 6">Next</b-button>
+          <h5 class="mt-4" v-if="revealAnswerOn">{{q.answer}}</h5>
+        </div>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="mt-4 pt-2 links-row">
       <b-col>
         <a @click="router.go(-1)" href="#">Back</a>
       </b-col>
@@ -57,5 +59,12 @@ export default {
 </script>
 
 <style scoped>
-
+ol {
+  display: inline-grid !important;
+  padding: 0;
+  font-size: 1.5rem;
+}
+ol > li {
+  cursor: pointer;
+}
 </style>

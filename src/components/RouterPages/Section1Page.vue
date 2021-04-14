@@ -2,7 +2,7 @@
   <b-container class="section-1-page">
     <b-row>
       <b-col>
-        <h3>Section 1 - Tech Select &amp; Answer</h3>
+        <h2>Section 1 - Tech Select &amp; Answer</h2>
         <p>Teams take turns to pick the topic and question level:</p>
         <ul>
           <li>If you get it <strong>right</strong>, you win the points!</li>
@@ -16,9 +16,10 @@
             </ul>
           </li>
         </ul>
+        <p>We are going to do a total of <strong>12</strong> questions!</p>
       </b-col>
     </b-row>
-    <b-row class="mt-4">
+    <b-row class="mt-4 pt-2 links-row">
       <b-col>
         <router-link to="/intro">Back To Intro</router-link>
       </b-col>

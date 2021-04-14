@@ -1,11 +1,11 @@
 <template>
   <b-container class="section-3-selection-page">
-    <b-row>
+    <b-row class="mt-2 mb-2">
       <b-col>
         <h2>Questions:</h2>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="mt-2 mb-2">
       <b-col>
         <b-button block variant="primary" size="lg" :disabled="isQuestionUsed('history100')" @click="selectQuestion('history100')">History 100</b-button>
         <b-button block variant="primary" size="lg" :disabled="isQuestionUsed('history200')" @click="selectQuestion('history200')">History 200</b-button>
@@ -22,12 +22,12 @@
         <b-button block variant="warning" size="lg" :disabled="isQuestionUsed('physics300')" @click="selectQuestion('physics300')">Physics 300</b-button>
       </b-col>
       <b-col>
-        <b-button block variant="outline-dark" size="lg" :disabled="isQuestionUsed('chemistry100')" @click="selectQuestion('chemistry100')">Chemistry 100</b-button>
-        <b-button block variant="outline-dark" size="lg" :disabled="isQuestionUsed('chemistry200')" @click="selectQuestion('chemistry200')">Chemistry 200</b-button>
-        <b-button block variant="outline-dark" size="lg" :disabled="isQuestionUsed('chemistry300')" @click="selectQuestion('chemistry300')">Chemistry 300</b-button>
+        <b-button block variant="light" size="lg" :disabled="isQuestionUsed('chemistry100')" @click="selectQuestion('chemistry100')">Chemistry 100</b-button>
+        <b-button block variant="light" size="lg" :disabled="isQuestionUsed('chemistry200')" @click="selectQuestion('chemistry200')">Chemistry 200</b-button>
+        <b-button block variant="light" size="lg" :disabled="isQuestionUsed('chemistry300')" @click="selectQuestion('chemistry300')">Chemistry 300</b-button>
       </b-col>
     </b-row>
-    <b-row class="mt-2">
+    <b-row class="mt-2 mb-2">
       <b-col>
         <b-button block variant="dark" size="lg" :disabled="isQuestionUsed('politics100')" @click="selectQuestion('politics100')">Politics 100</b-button>
         <b-button block variant="dark" size="lg" :disabled="isQuestionUsed('politics200')" @click="selectQuestion('politics200')">Politics 200</b-button>
@@ -49,7 +49,7 @@
         <b-button block variant="secondary" size="lg" :disabled="isQuestionUsed('business300')" @click="selectQuestion('business300')">Business 300</b-button>
       </b-col>
     </b-row>
-    <b-row class="mt-4">
+    <b-row class="mt-4 pt-2 links-row">
       <b-col>
         <router-link to="/section-3">Back To Section Intro</router-link>
       </b-col>
