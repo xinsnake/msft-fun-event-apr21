@@ -1,5 +1,5 @@
 <template>
-  <b-container class="single-question-page">
+  <b-container class="single-question-page" v-if="q">
     <b-row class="text-center mt-4 mb-4">
       <b-col>
         <h3>{{q.question}}</h3>

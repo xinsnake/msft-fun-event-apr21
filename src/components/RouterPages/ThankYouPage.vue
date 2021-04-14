@@ -1,7 +1,7 @@
 <template>
   <b-container class="thank-you-page">
     <b-row>
-      <b-col class="text-right">
+      <b-col class="text-right pt-5 pb-5">
         <b-img :src="require('@/assets/images/thank-you.jpg')" class="thank-you-image"/>
       </b-col>
       <b-col>

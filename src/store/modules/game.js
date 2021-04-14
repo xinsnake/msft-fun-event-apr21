@@ -21,6 +21,13 @@ const mutations = {
   },
   changeTeam(state) {
     state.currentTeam = state.currentTeam === 'A' ? 'B' : 'A';
+  },
+  resetGame(state) {
+    state.teamAPoint = 1000;
+    state.teamBPoint = 1000;
+    state.currentTeam = 'A';
+    state.usedQuestions = [];
+    console.log(state);
   }
 }
 

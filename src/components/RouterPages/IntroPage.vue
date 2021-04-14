@@ -1,8 +1,8 @@
 <template>
   <b-container class="intro-page">
     <b-row>
-      <b-col class="text-right">
-        <b-img :src="require('@/assets/images/quiz-time.png')" class="no-panic-image"/>
+      <b-col class="text-right pt-5 pb-5">
+        <b-img :src="require('@/assets/images/quiz.png')" class="quiz-image"/>
       </b-col>
       <b-col>
         <div class="flex-center">
@@ -31,8 +31,8 @@ export default {
 </script>
 
 <style scoped>
-.no-panic-image {
-  width: 400px;
+.quiz-image {
+  width: 500px;
   height: auto;
 }
 .flex-center {
