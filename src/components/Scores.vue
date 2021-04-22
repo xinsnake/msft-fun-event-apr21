@@ -1,6 +1,6 @@
 <template>
-  <b-container class="scores" v-if="!isTitlePage">
-    <b-row class="mb-4 mt-4">
+  <b-container class="scores">
+    <b-row class="mb-4 mt-4" v-if="!isTitlePage">
       <b-col class="text-right">
         <h2>
           <b-badge :variant="getTeamVariant('A')" @click="switchTeam('A')">Team A</b-badge> &nbsp;
@@ -71,6 +71,7 @@ export default {
 <style scoped>
 .scores {
   border-bottom: 3px solid rgba(255, 255, 255, .5);
+  min-height: 75px;
 }
 .badge {
   cursor: pointer;
