@@ -35,36 +35,36 @@ const state = () => ({
   },
   security100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'To avoid ______, user input should not be put directly into a database.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Cross-site scripting',
+      2: 'Buffer overflow',
+      3: 'SQL injection',
+      4: 'Denial of service attack'
     },
-    answer: 2
+    answer: 3
   },
   security200: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'When you notice your computer is affected by ransomware and it is actively encrypting your data, what should you do?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Force shutdown the computer',
+      2: 'Run malware/virus scan in Windows Security',
+      3: 'Unplug the network cable/disconnect Wifi',
+      4: 'Do nothing and wait for it to finish'
     },
-    answer: 2
+    answer: 1
   },
   security300: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Theoretically, which encrpytion type below offers the strongest level of protection against brute force attack?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Digital Signature Algorithm (DSA) 2048-bit key',
+      2: 'Rivest Shamir Adleman (RSA) 2048-bit key',
+      3: 'Elliptic Curve (ECC) 256-bit key',
+      4: 'Advanced Encryption Standard (AES) 256-bit key'
     },
-    answer: 2
+    answer: 4
   },
   database100: {
     points: 100,
