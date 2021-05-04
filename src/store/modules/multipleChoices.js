@@ -45,7 +45,7 @@ const state = () => ({
     answer: 3
   },
   security200: {
-    points: 100,
+    points: 200,
     question: 'When you notice your computer is affected by ransomware and it is actively encrypting your data, what should you do?',
     selections: {
       1: 'Force shutdown the computer',
@@ -56,7 +56,7 @@ const state = () => ({
     answer: 1
   },
   security300: {
-    points: 100,
+    points: 300,
     question: 'Theoretically, which encrpytion type below offers the strongest level of protection against brute force attack?',
     selections: {
       1: 'Digital Signature Algorithm (DSA) 2048-bit key',
@@ -134,34 +134,34 @@ const state = () => ({
   },
   linux100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Which variable in Bash shell prints the exit status of the most recently executed foreground application.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '$#',
+      2: '$!',
+      3: '$@',
+      4: '$?'
     },
-    answer: 2
+    answer: 4
   },
   linux200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'You are installing an application manually in Linux by unzipping a downloaded package, where do you think could be a good place to put it so you can share it with everyone using the computer?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '/',
+      2: '/opt',
+      3: '/etc',
+      4: '/home/jacob'
     },
-    answer: 2
+    answer: 3
   },
   linux300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'Which of the following statement is "FALSE" for /dev/random and /dev/urandom on a modern Linux system?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'You can use both /dev/random and /dev/urandom for cryptographic applications',
+      2: 'Both /dev/random and /dev/urandom provides as many entropies as you like without blocking',
+      3: 'Both /dev/random and /dev/urandom gets the randomness from the same pseudorandom number generator',
+      4: 'Entropy on both /dev/random and /dev/urandom may be lower when the system is just booted.'
     },
     answer: 2
   },
@@ -177,18 +177,18 @@ const state = () => ({
     answer: 2
   },
   web200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'What does URL stands for?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Universal Resource Link',
+      2: 'Universal Resource Locator',
+      3: 'Unique Resource Link',
+      4: 'Unique Resource Locator'
     },
     answer: 2
   },
   web300: {
-    points: 100,
+    points: 300,
     question: 'This is a sample question',
     selections: {
       1: 'answer 1',
