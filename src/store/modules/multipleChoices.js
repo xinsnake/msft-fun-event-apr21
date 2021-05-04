@@ -243,15 +243,15 @@ const state = () => ({
     answer: 2
   },
   theory200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'In which year was Microsoft Windows 10 first released?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '2015',
+      2: '2016',
+      3: '2017',
+      4: '2018'
     },
-    answer: 2
+    answer: 1
   },
   theory300: {
     points: 100,
