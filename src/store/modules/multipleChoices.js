@@ -189,14 +189,14 @@ const state = () => ({
   },
   web300: {
     points: 300,
-    question: 'This is a sample question',
+    question: 'Which statement below is "TRUE" about WebSocket technology?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'WebSocket protocol is built on top of HTTP protocol, so proxy and firewall changes are normally not required.',
+      2: 'Like HTTP2 protocol, WebSocket can only be used with Transport Layer Security enabled.',
+      3: 'WebSocket is a half-duplex communication protocal and two TCP connections is required for full-duplex communication.',
+      4: 'WebSocket is event-driven so it requires considerable amount of re-architecture work to convert a RESTful API server to support WebSocket.'
     },
-    answer: 2
+    answer: 4
   },
   office100: {
     points: 100,
