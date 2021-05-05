@@ -532,58 +532,58 @@ const state = () => ({
   // section 4
   english1: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'I wish I _____ those words, but now it\'s too late',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'not having said',
+      2: 'have never said',
+      3: 'never said',
+      4: 'had never said'
     },
-    answer: 2
+    answer: 4
   },
   english2: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Last year, when I last met her, she told me she _____ a letter every day for the last two months.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'had written',
+      2: 'has written',
+      3: 'had been writing',
+      4: 'have been writing'
     },
-    answer: 2
+    answer: 3
   },
   english3: {
     points: 100,
-    question: 'This is a sample question',
+    question: '_______ forced to do anything. He acted of his own free will.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'In no way was he',
+      2: 'No way he was',
+      3: 'In any way he was',
+      4: 'In any way was he'
     },
-    answer: 2
+    answer: 1
   },
   english4: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'We\'ll never know what might have happened _____ the email earlier.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'if he sent',
+      2: 'had he sent',
+      3: 'if he has sent',
+      4: 'did he sent'
     },
     answer: 2
   },
   english5: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'When I saw them, they _____, and I thought they _____ because their eyes were red.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'were arguing / had been crying',
+      2: 'had been arguing / had been crying',
+      3: 'were arguing / were crying',
+      4: 'had been arguing / were crying'
     },
-    answer: 2
+    answer: 1
   },
   english6: {
     points: 100,
