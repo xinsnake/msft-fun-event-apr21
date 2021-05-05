@@ -587,14 +587,14 @@ const state = () => ({
   },
   english6: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'When your train arrives, I _____ on the platform.',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'will wait',
+      2: 'shall wait',
+      3: 'will have waited',
+      4: 'will be waiting'
     },
-    answer: 2
+    answer: 4
   }
 })
 
