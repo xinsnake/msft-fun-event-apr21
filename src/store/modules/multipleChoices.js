@@ -200,23 +200,23 @@ const state = () => ({
   },
   office100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'In Microsoft Word in Windows, when you press Shift-Enter, what is the name of the charactor it enters?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Paragraph Break',
+      2: 'Carriage Return',
+      3: 'Hard Return',
+      4: 'Soft Return'
     },
-    answer: 2
+    answer: 4
   },
   office200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'In Microsoft Excel, what is the keyboard shortcut key to lock cell references in a formula?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'F2',
+      2: 'F4',
+      3: 'F6',
+      4: 'F8'
     },
     answer: 2
   },
