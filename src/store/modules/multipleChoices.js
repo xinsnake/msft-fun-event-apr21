@@ -288,15 +288,15 @@ const state = () => ({
     answer: 2
   },
   history300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'In January 2021 Australia changed its lyrics of the national anthem "Advance Australia Fair". What was the purpose of the change?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'To recognise equality of opportunity for all',
+      2: 'To recognise freedom and dignity of the individual',
+      3: 'To recognise its long indigenous history',
+      4: 'To recognise English as an important unifiying element of Australian society'
     },
-    answer: 2
+    answer: 3
   },
   biology100: {
     points: 100,
@@ -333,50 +333,50 @@ const state = () => ({
   },
   physics100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Which of the following is "NOT" a form of energy?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Light',
+      2: 'Magnetism',
+      3: 'Heat',
+      4: 'Sound'
     },
     answer: 2
   },
   physics200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'The reason you see straw "bending" in water is because of...',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Refraction',
+      2: 'Diffraction',
+      3: 'Reflection',
+      4: 'Scattering'
     },
-    answer: 2
+    answer: 1
   },
   physics300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'What is the type of lens used to correct nearsightedness',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Double Convex',
+      2: 'Plano-convex',
+      3: 'Double Concave',
+      4: 'Plano-concave'
     },
-    answer: 2
+    answer: 3
   },
   chemistry100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'What are the most common elements in the human body?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Phosphorus, nitrogen, calcium',
+      2: 'Sulfur, sodium, magnesium',
+      3: 'Copper, zinc, selenium',
+      4: 'Oxygen, carbon and hydrogen'
     },
-    answer: 2
+    answer: 4
   },
   chemistry200: {
-    points: 100,
+    points: 200,
     question: 'This is a sample question',
     selections: {
       1: 'answer 1',
@@ -387,7 +387,7 @@ const state = () => ({
     answer: 2
   },
   chemistry300: {
-    points: 100,
+    points: 300,
     question: 'This is a sample question',
     selections: {
       1: 'answer 1',
