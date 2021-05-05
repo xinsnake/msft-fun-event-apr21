@@ -2,25 +2,25 @@ const state = () => ({
   // section 1
   software100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'When does one decides to re-engineer a product?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'When tools to support restructuring are disabled',
+      2: 'When system crashes frequently',
+      3: 'When hardware or software support becomes obsolete',
+      4: 'Subsystems of a larger system require few maintenance'
     },
-    answer: 2
+    answer: 3
   },
   software200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'Which design pattern defines one-to-many dependency among objects?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Singleton pattern',
+      2: 'Facade pattern',
+      3: 'Observer pattern',
+      4: 'Factory method pattern'
     },
-    answer: 2
+    answer: 3
   },
   software300: {
     points: 100,
