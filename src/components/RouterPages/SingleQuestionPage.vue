@@ -7,7 +7,7 @@
     </b-row>
     <b-row class="text-center mb-5">
       <b-col>
-        <ol type="A">
+        <ol type="A" class="text-left">
           <li v-for="i in [1, 2, 3, 4]"
               :key="i"
               @click="pendingAnswer(i)"

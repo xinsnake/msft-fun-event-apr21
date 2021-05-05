@@ -57,7 +57,7 @@ const state = () => ({
   },
   security300: {
     points: 300,
-    question: 'Theoretically, which encrpytion type below offers the strongest level of protection against brute force attack?',
+    question: 'Theoretically, which encryption type below offers the strongest level of protection against brute force attack?',
     selections: {
       1: 'Digital Signature Algorithm (DSA) 2048-bit key',
       2: 'Rivest Shamir Adleman (RSA) 2048-bit key',
@@ -65,72 +65,6 @@ const state = () => ({
       4: 'Advanced Encryption Standard (AES) 256-bit key'
     },
     answer: 4
-  },
-  database100: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
-  },
-  database200: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
-  },
-  database300: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
-  },
-  architecture100: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
-  },
-  architecture200: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
-  },
-  architecture300: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
   },
   linux100: {
     points: 100,
@@ -193,14 +127,14 @@ const state = () => ({
     selections: {
       1: 'WebSocket protocol is built on top of HTTP protocol, so proxy and firewall changes are normally not required.',
       2: 'Like HTTP2 protocol, WebSocket can only be used with Transport Layer Security enabled.',
-      3: 'WebSocket is a half-duplex communication protocal and two TCP connections is required for full-duplex communication.',
+      3: 'WebSocket is a half-duplex communication protocol and two TCP connections is required for full-duplex communication.',
       4: 'WebSocket is event-driven so it requires considerable amount of re-architecture work to convert a RESTful API server to support WebSocket.'
     },
     answer: 4
   },
   office100: {
     points: 100,
-    question: 'In Microsoft Word in Windows, when you press Shift-Enter, what is the name of the charactor it enters?',
+    question: 'In Microsoft Word in Windows, when you press Shift-Enter, what is the name of the character it enters?',
     selections: {
       1: 'Paragraph Break',
       2: 'Carriage Return',
@@ -270,7 +204,7 @@ const state = () => ({
     question: 'Why is the emu and the kangaroo depicted on Australia\'s Commonwealth Coat of Arms?',
     selections: {
       1: 'Because these animals can\'t walk backwards',
-      2: 'Becasue these animals are national icons',
+      2: 'Because these animals are national icons',
       3: 'Because these animals are deceptively dangerous',
       4: 'Because these animals are higher in population than people'
     },
@@ -294,13 +228,13 @@ const state = () => ({
       1: 'To recognise equality of opportunity for all',
       2: 'To recognise freedom and dignity of the individual',
       3: 'To recognise its long indigenous history',
-      4: 'To recognise English as an important unifiying element of Australian society'
+      4: 'To recognise English as an important unifying element of Australian society'
     },
     answer: 3
   },
   biology100: {
     points: 100,
-    question: 'According to the definition of fruits, which of the below vegitables are real vegitables but not fruits?',
+    question: 'According to the definition of fruits, which of the below vegetables is real vegetables but not fruits?',
     selections: {
       1: 'Eggplant',
       2: 'Tomato',
