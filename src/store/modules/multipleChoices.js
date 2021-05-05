@@ -267,14 +267,14 @@ const state = () => ({
   // section 4
   history100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Why is the emu and the kangaroo depicted on Australia\'s Commonwealth Coat of Arms?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Because these animals can\'t walk backwards',
+      2: 'Becasue these animals are national icons',
+      3: 'Because these animals are deceptively dangerous',
+      4: 'Because these animals are higher in population than people'
     },
-    answer: 2
+    answer: 1
   },
   history200: {
     points: 200,
