@@ -277,13 +277,13 @@ const state = () => ({
     answer: 2
   },
   history200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'Australia’s first university was founded in which city?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Perth',
+      2: 'Sydney',
+      3: 'Melbourne',
+      4: 'Darwin'
     },
     answer: 2
   },
