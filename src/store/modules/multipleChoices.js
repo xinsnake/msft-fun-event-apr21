@@ -211,6 +211,17 @@ const state = () => ({
   },
   office200: {
     points: 200,
+    question: 'Which presentation views below is "NOT" an option is the current version of Microsoft PowerPoint?',
+    selections: {
+      1: 'Outline View',
+      2: 'Slide View',
+      3: 'Notes Page',
+      4: 'Reading View'
+    },
+    answer: 2
+  },
+  office300: {
+    points: 300,
     question: 'In Microsoft Excel, what is the keyboard shortcut key to lock cell references in a formula?',
     selections: {
       1: 'F2',
@@ -220,27 +231,16 @@ const state = () => ({
     },
     answer: 2
   },
-  office300: {
-    points: 100,
-    question: 'This is a sample question',
-    selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
-    },
-    answer: 2
-  },
   theory100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'What is "NOT" one of the benefits of using SSDs compare to traditional spinning hard drives?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Higher read/write speed',
+      2: 'Lower power consumption',
+      3: 'Lower running temperature',
+      4: 'Better resistance to magnetism.'
     },
-    answer: 2
+    answer: 3
   },
   theory200: {
     points: 200,
@@ -254,15 +254,15 @@ const state = () => ({
     answer: 1
   },
   theory300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'How many connection pins are there in a standard USB 3.0 type A plug?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '4',
+      2: '5',
+      3: '10',
+      4: '11'
     },
-    answer: 2
+    answer: 4
   },
   // section 4
   history100: {
