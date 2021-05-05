@@ -300,36 +300,36 @@ const state = () => ({
   },
   biology100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'According to the definition of fruits, which of the below vegitables are real vegitables but not fruits?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Eggplant',
+      2: 'Tomato',
+      3: 'Cucumber',
+      4: 'Carrot'
     },
-    answer: 2
+    answer: 4
   },
   biology200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'Which animal below has the highest normal body temperature? ',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Dog',
+      2: 'Cat',
+      3: 'Chicken',
+      4: 'Rabbit'
     },
     answer: 2
   },
   biology300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'What is the medical term for "low sodium present in blood"?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Leukopenia',
+      2: 'Anemia',
+      3: 'Hyponatremia',
+      4: 'Hypoglycemia'
     },
-    answer: 2
+    answer: 3
   },
   physics100: {
     points: 100,
