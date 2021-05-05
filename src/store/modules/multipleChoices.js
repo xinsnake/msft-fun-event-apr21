@@ -311,91 +311,91 @@ const state = () => ({
   },
   chemistry200: {
     points: 200,
-    question: 'This is a sample question',
+    question: 'What is the chemical name of baking soda',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Sodium Bicarbonate',
+      2: 'Sodium Chloride',
+      3: 'Calcium Hypochlorite',
+      4: 'Calcium Carbonate'
     },
-    answer: 2
+    answer: 1
   },
   chemistry300: {
     points: 300,
-    question: 'This is a sample question',
+    question: 'What alloy does copper and tin create when combined?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Brass',
+      2: 'Steel',
+      3: 'Bronze',
+      4: 'Rose gold'
     },
-    answer: 2
+    answer: 3
   },
   politics100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'When was the United Nations created?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Few years after World War I',
+      2: 'Few years before World War II',
+      3: 'During World War II',
+      4: 'After World War II'
     },
-    answer: 2
+    answer: 4
   },
   politics200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'Which of the European Union country does "NOT" use Euro?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Austria',
+      2: 'Finland',
+      3: 'Poland',
+      4: 'Ireland'
     },
-    answer: 2
+    answer: 3
   },
   politics300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'Which country below is the latest member of the United Nations?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Switzerland',
+      2: 'South Sudan',
+      3: 'Vatican City',
+      4: 'Monaco'
     },
     answer: 2
   },
   geology100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Antarctica has what percentage of the world\'s ice?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '10%',
+      2: '35%',
+      3: '65%',
+      4: '90%'
     },
-    answer: 2
+    answer: 4
   },
   geology200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'Australia is the fastest moving continent on Earth. How far does it move north each year?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '7 millimetres',
+      2: '7 centimetres',
+      3: '70 centimetres',
+      4: '7 metres'
     },
     answer: 2
   },
   geology300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'Which one of these statements is true:',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'You can run faster than a tsunami',
+      2: 'A tsunami wave height is large in the open ocean',
+      3: 'Tsunami can occur in lakes, rivers and oceans',
+      4: 'Tsunami travel at the speed of sound in water in deep ocean'
     },
-    answer: 2
+    answer: 3
   },
   economy100: {
     points: 100,
