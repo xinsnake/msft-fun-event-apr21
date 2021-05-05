@@ -167,14 +167,14 @@ const state = () => ({
   },
   web100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Which of the image format below is fundamentally different from the other ones in the way they store information?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: '.jpeg',
+      2: '.png',
+      3: '.gif',
+      4: '.svg'
     },
-    answer: 2
+    answer: 4
   },
   web200: {
     points: 200,
