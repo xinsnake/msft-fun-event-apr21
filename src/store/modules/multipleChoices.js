@@ -23,13 +23,13 @@ const state = () => ({
     answer: 3
   },
   software300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'In JavaScript, what is the output of the following command: console.log([] == \'\', 0.1 + 0.2 == 0.3);',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'true true',
+      2: 'true false',
+      3: 'false false',
+      4: 'false true'
     },
     answer: 2
   },
@@ -399,25 +399,25 @@ const state = () => ({
   },
   economy100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'Which of the following industries is most prone to the occurrence of natural monopolies?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Computer Software',
+      2: 'Agriculture',
+      3: 'Utility',
+      4: 'Retail'
     },
-    answer: 2
+    answer: 3
   },
   economy200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'Which of the following would be an "opportunity cost" of going to college?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Four years of foregone earnings in the labour market',
+      2: 'The tuition cost of college',
+      3: 'The student debt accumulated during college',
+      4: 'The total tuition cost plus the interest from student loan'
     },
-    answer: 2
+    answer: 1
   },
   economy300: {
     points: 100,
