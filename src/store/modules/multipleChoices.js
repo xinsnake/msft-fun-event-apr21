@@ -420,48 +420,48 @@ const state = () => ({
     answer: 1
   },
   economy300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'How are current international exchange rates determined?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'A fixed exchange rate',
+      2: 'A managed floating exchange rate',
+      3: 'A standard exchange rate',
+      4: 'A floating exchange rate'
     },
     answer: 2
   },
   business100: {
     points: 100,
-    question: 'This is a sample question',
+    question: 'According to Fortune, Global 500 of 2020, what are the 5 top U.S. companies in Technology sector?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Apple, Microsoft, Dell Technologies, IBM, Facebook',
+      2: 'Apple, Microsoft, Alphabet, Dell Technologies, IBM',
+      3: 'Apple, Microsoft, Alphabet, IBM, Facebook',
+      4: 'Apple, Microsoft, IBM, Intel, Facebook'
     },
     answer: 2
   },
   business200: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 200,
+    question: 'What is Microsoft\'s number of employees worldwide as of March 31, 2021?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'About 100,000',
+      2: 'About 125,000',
+      3: 'About 150,000',
+      4: 'About 175,000'
     },
-    answer: 2
+    answer: 4
   },
   business300: {
-    points: 100,
-    question: 'This is a sample question',
+    points: 300,
+    question: 'Microsoft co-founder Bill Gates held an AMA on Reddit this week. What was "NOT" one of his personal strategies to reduce climate change?',
     selections: {
-      1: 'answer 1',
-      2: 'answer 2',
-      3: 'answer 3',
-      4: 'answer 4'
+      1: 'Showering less',
+      2: 'Eating synthetic meat',
+      3: 'Put solar panels at his house',
+      4: 'Buying green jet fuel'
     },
-    answer: 2
+    answer: 1
   },
   // section 4
   english1: {
