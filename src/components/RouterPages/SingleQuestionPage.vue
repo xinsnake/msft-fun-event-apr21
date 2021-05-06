@@ -6,7 +6,7 @@
       </b-col>
     </b-row>
     <b-row class="text-center mb-5">
-      <b-col>
+      <b-col style="padding: 0 100px">
         <ol type="A" class="text-left">
           <li v-for="i in [1, 2, 3, 4]"
               :key="i"
@@ -34,6 +34,8 @@
 </template>
 
 <script>
+import {EventBus} from "@/bus";
+
 export default {
   name: 'SingleQuestionPage',
   data: function () {
@@ -62,7 +64,10 @@ export default {
     checkAnswer() {
       this.$set(this, 'checkAnswerOn', true);
       if (this.q.answer === this.pendingSelection) {
+        EventBus.$emit('reveal-answer', true);
         this.revealAnswer();
+      } else {
+        EventBus.$emit('reveal-answer', false);
       }
     },
     revealAnswer() {

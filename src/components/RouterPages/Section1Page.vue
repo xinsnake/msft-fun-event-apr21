@@ -6,15 +6,7 @@
         <p>Teams take turns to pick the topic and question level:</p>
         <ul>
           <li>If you get it <strong>right</strong>, you win the points!</li>
-          <li>If you get it <strong>wrong</strong>, you lose the <strong>same</strong> amount of points, and your
-            opponent gets the option to answer.
-          </li>
-          <li>
-            <ul>
-              <li>If they get it right, they win <strong>half</strong> of the points the question is worth,</li>
-              <li>If they also get it wrong, they lose <strong>half</strong> of the amount of above points.</li>
-            </ul>
-          </li>
+          <li>If you get it <strong>wrong</strong>, your opponent gets the option to answer. If they get it right, they win <strong>half</strong> of the points the question is worth</li>
         </ul>
         <p>We are going to do a total of <strong>12</strong> questions!</p>
       </b-col>

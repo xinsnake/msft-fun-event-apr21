@@ -6,8 +6,8 @@
       </b-col>
     </b-row>
     <b-row class="text-center mb-5">
-      <b-col>
-        <ol type="i">
+      <b-col style="padding: 0 100px">
+        <ol type="i" class="text-left">
           <li v-for="i in [1, 2, 3, 4, 5, 6]"
               :key="i">
             <span v-if="currentStep >= i">{{q[i]}}</span>
