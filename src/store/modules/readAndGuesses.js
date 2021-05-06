@@ -45,13 +45,13 @@ const state = () => ({
     answer: 'Azure Monitor'
   },
   azure6: {
-    1: 'This is sentence 1',
-    2: 'This is sentence 2',
-    3: 'This is sentence 3',
-    4: 'This is sentence 4',
-    5: 'This is sentence 5',
-    6: 'This is sentence 6',
-    answer: 'This is the Answer'
+    1: 'It helps you stay ahead of new and evolving threats.',
+    2: 'It provides multiple layers of protection to help guard devices against and respond to threats.',
+    3: 'It makes it easy to add new features and improve performance throughout device lifecycles.',
+    4: 'It helps protect your data, privacy, physical safety and infrastructure.',
+    5: 'It helps you secure existing equipment and build protection into new IoT investments.',
+    6: 'It is a comprehensive IoT security solution – including hardware (crossover microcontroller), OS and cloud components for IoT device security.',
+    answer: 'Azure Sphere'
   },
 })
 
